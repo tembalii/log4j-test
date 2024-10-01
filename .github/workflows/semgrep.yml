@@ -42,5 +42,5 @@ jobs:
       - name: Download artifact from previous job
         uses: actions/download-artifact@v3
         with:
-          name: mavendeptree 
+          name: mavendeptree #hi
       - run: semgrep ci 
